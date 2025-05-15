@@ -9,4 +9,4 @@ To implement a new feature, create a dedicated folder under `Pages/` (e.g., `Pag
 This approach keeps all code related to a specific feature together, making it easier to maintain and extend. Each feature folder is self-contained, with its UI, logic, and data model clearly separated but closely related.
 
 
-Look inside of the `Pages/` folder to see how the existing features are structured. You can use this as a reference when creating new features.
+Look inside of the `Pages/Products` example feature folder to see how it is structured. You can use this as a reference when creating new features.
