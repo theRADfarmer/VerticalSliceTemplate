@@ -2,6 +2,9 @@ using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
+// Create.cshtml.cs
+// Handles the Create Product page logic. Binds form data to CreateProduct and sends it via MediatR for processing.
+
 namespace VerticalSliceTemplate.Pages.Products
 {
     public class CreateModel(IMediator mediator) : PageModel

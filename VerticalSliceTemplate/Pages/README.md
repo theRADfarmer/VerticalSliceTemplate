@@ -8,5 +8,9 @@ To implement a new feature, create a dedicated folder under `Pages/` (e.g., `Pag
 
 This approach keeps all code related to a specific feature together, making it easier to maintain and extend. Each feature folder is self-contained, with its UI, logic, and data model clearly separated but closely related.
 
+**How it works:**
+1. The Razor Page binds user input to the model class.
+2. The PageModel sends the model as a request to MediatR.
+3. The handler class processes the request, performs any necessary actions (such as saving to the database), and returns a result.
 
-Look inside of the `Pages/` folder to see how the existing features are structured. You can use this as a reference when creating new features.
+This structure keeps all code related to a specific feature together, making it easy to understand, maintain, and extend. Refer to the `Pages/Products/` folder for a practical example.

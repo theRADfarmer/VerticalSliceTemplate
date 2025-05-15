@@ -2,6 +2,9 @@
 using VerticalSliceTemplate.Data;
 using VerticalSliceTemplate.Models;
 
+// CreateProductHandler.cs
+// Handles the CreateProduct request. Maps the request data to a Product entity and saves it to the database.
+
 namespace VerticalSliceTemplate.Pages.Products
 {
     public class CreateProductHandler(ApplicationDbContext db) : IRequestHandler<CreateProduct>
