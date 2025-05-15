@@ -28,27 +28,27 @@ In other Vertical Slice Architecture templates, each feature is placed into a `F
 ```
 VerticalSliceTemplate/
 ├── Data/
-|   └── ApplicationDbContext.cs
+│   └── ApplicationDbContext.cs
 ├── Models/
-|   └── Product.cs
+│   └── Product.cs
 ├── Pages/
-|   ├── Home/
-|   |   └── Index.cshtml
-|   |       └── Index.cshtml.cs
+│   ├── Home/
+│   │   └── Index.cshtml
+|   │       └── Index.cshtml.cs
 │   ├── Products/
-│   |   ├── Create.cshtml
-│   |   |   └── Create.cshtml.cs
-|   |   ├── CreateProduct.cs
-|   |   ├── CreateProductHandler.cs
-│   |   ├── Edit.cshtml
-│   |   |   └── Edit.cshtml.cs
-|   |   ├── EditProduct.cs
-|   |   ├── EditProductHandler.cs
-│   |   ├── Delete.cshtml
-│   |   |   └── Delete.cshtml.cs
-|   |   ├── DeleteProduct.cs
-|   |   ├── DeleteProductHandler.cs
-│   |   └── Index.cshtml
+│   │   ├── Create.cshtml
+│   │   │   └── Create.cshtml.cs
+│   │   ├── CreateProduct.cs
+│   │   ├── CreateProductHandler.cs
+│   │   ├── Edit.cshtml
+│   │   │   └── Edit.cshtml.cs
+│   │   ├── EditProduct.cs
+│   │   ├── EditProductHandler.cs
+│   │   ├── Delete.cshtml
+│   │   │   └── Delete.cshtml.cs
+│   │   ├── DeleteProduct.cs
+│   │   ├── DeleteProductHandler.cs
+│   │   └── Index.cshtml
 │   |       └── Index.cshtml.cs
 │   └── Shared/
 │       ├── _Layout.cshtml
